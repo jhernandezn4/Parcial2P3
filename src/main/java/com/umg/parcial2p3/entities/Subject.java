@@ -9,6 +9,7 @@ public class Subject {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
+    @Column(name="professor_name")
     private String professorName;
 
     public Long getId() {
