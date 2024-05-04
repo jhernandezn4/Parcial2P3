@@ -13,7 +13,7 @@ public class StudentServiceImp implements StudentService {
     StudentDao studentDao;
 
     @Override
-    public List<Student> findAll() {
+    public List<Student> getAll() {
         return (List<Student>)studentDao.findAll();
     }
 
